@@ -1,0 +1,24 @@
+# Dependencias
+node_modules/
+.env
+.env.local
+
+# Archivos temporales
+*.log
+*.tmp
+slide_*.jpg
+
+# Carpetas grandes del video factory (no van al repo web)
+pruebas/video_factory/output/
+pruebas/video_factory/temp/
+pruebas/video_factory/clips/
+pruebas/video_factory/node_modules/
+
+# Repos clonados (tienen su propio git)
+Open-Generative-AI/
+web/
+
+# Config local
+.mcp.json
+social_tokens.json
+accounts.json
