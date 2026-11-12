@@ -1,0 +1,38 @@
+{
+  "_nota": "CASO FICTICIO de demostración. Ningún dato corresponde a una persona o comparendo real.",
+  "solicitante": {
+    "nombre": "Nombre Apellido de Ejemplo",
+    "tipo_documento": "C.C.",
+    "documento": "1.000.000.000",
+    "calidad": "propietario",
+    "direccion": "Calle 0 # 0-00",
+    "ciudad": "Bogotá D.C.",
+    "email": "correo@ejemplo.com",
+    "telefono": "300 000 0000"
+  },
+  "autoridad": {
+    "nombre": "Secretaría Distrital de Movilidad",
+    "ciudad": "Bogotá D.C."
+  },
+  "comparendo": {
+    "numero": "11001000000000000000",
+    "placa": "ABC12D",
+    "tipo": "fotodeteccion",
+    "fecha_infraccion": "2022-03-14",
+    "codigo_infraccion": "C29",
+    "descripcion": "Conducir un vehículo a velocidad superior a la máxima permitida",
+    "valor": 468500,
+    "estado_simit": "Cobro coactivo",
+    "recibio_notificacion": false,
+    "direccion_notificacion_coincide_runt": null,
+    "fecha_notificacion": null,
+    "conductor_identificado": false,
+    "fecha_resolucion": null,
+    "numero_resolucion": null,
+    "fecha_notificacion_mandamiento": null,
+    "firmo_comparendo": null,
+    "hubo_testigo": null,
+    "recibio_copia": null,
+    "errores_datos": null
+  }
+}

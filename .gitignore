@@ -22,3 +22,5 @@ web/
 .mcp.json
 social_tokens.json
 accounts.json
+
+__pycache__/
