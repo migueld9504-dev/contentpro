@@ -24,3 +24,5 @@ social_tokens.json
 accounts.json
 
 __pycache__/
+defensa-transito/casos/
+perfil.json

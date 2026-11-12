@@ -52,3 +52,15 @@ Es una ayuda para redactar, no reemplaza a un abogado. Las normas y sentencias
 citadas deben revisarse contra el texto oficial antes de radicar, sobre todo el
 plazo de validación de 10 días hábiles (tomado de fuentes secundarias sobre la
 Resolución 20203040011245 de 2020).
+
+## Modo automático: placa → PDF
+
+```bash
+export PLACAPI_KEY=...            # se genera en https://placapi.com/integracion
+python auto.py VSK24D --perfil perfil.json
+```
+
+Consulta las multas de la placa en PlacApi (servicio de terceros, de pago por
+consulta) y genera un PDF por cada comparendo en `casos/<PLACA>/`.
+`perfil.json` lleva el bloque `solicitante` del ejemplo. La lectura de la
+respuesta se probó con datos simulados, no con una respuesta real del servicio.
